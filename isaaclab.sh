@@ -14,6 +14,8 @@ set -e
 
 # Set tab-spaces
 tabs 4
+# to find isaac sim
+. ~/.local/share/ov/pkg/isaac-sim-4.2.0/setup_conda_env.sh
 
 # get source directory
 export ISAACLAB_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
